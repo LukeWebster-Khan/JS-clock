@@ -3,9 +3,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url(https://i.pinimg.com/originals/1a/c5/aa/1ac5aab55a3ef6319fb0c58181d8e647.png);
-  background-size: cover;
-  background-position: center;
 }
 
 .clock {
@@ -34,6 +31,7 @@ body {
   transform: rotate(90deg);
   transition: all 0.5s;
   transition-timing-function: cubic-bezier(0.01, 2.75, 0.58, 1);
+  border-radius: 10px;
 }
 
 .second-hand {
@@ -49,6 +47,5 @@ body {
     left: 48.75%;
     position: absolute;
     top: 30%;
-    transform-origin: 0% 100%;
-
+    transform-origin: 2% 50%;
 }
