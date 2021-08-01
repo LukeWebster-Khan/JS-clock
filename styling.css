@@ -8,13 +8,13 @@ body {
 .clock {
   width: 300px;
   height: 300px;
-  border-radius:  50%;
+  border-radius: 50%;
   border: 10px solid;
   position: relative;
   opacity: 90%;
   color: rgba(250, 195, 156, 0.319);
   background-image: url(https://media.istockphoto.com/vectors/clock-face-blank-hour-dial-dashes-mark-minutes-and-hours-simple-flat-vector-id1014875730?k=6&m=1014875730&s=612x612&w=0&h=-Y7dlzqmALeaIWtKrqjj02hEjzvdgX13Tc_p2kEQQYM=);
-  background-position:center;
+  background-position: center;
   background-size: 340px;
 }
 
@@ -32,23 +32,23 @@ body {
   position: absolute;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: all 0.5s;
+  /*transition: all 0.5s; REMOVED TO AVOID RESET VISUAL GLITCH*/
   transition-timing-function: cubic-bezier(0.01, 2.75, 0.58, 1);
   border-radius: 10px;
 }
 
 .second-hand {
-    height: 2px;
+  height: 2px;
 }
 .minute-hand {
-    height: 5px;
+  height: 5px;
 }
 .hour-hand {
-    background: #000;
-    width: 100px;
-    height: 10px;
-    left: 48.75%;
-    position: absolute;
-    top: 30%;
-    transform-origin: 2% 50%;
+  background: #000;
+  width: 100px;
+  height: 10px;
+  left: 48.75%;
+  position: absolute;
+  top: 30%;
+  transform-origin: 2% 50%;
 }
